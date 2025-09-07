@@ -10,13 +10,23 @@ This project demonstrates how to integrate LangChain, a framework for building L
 
 To set up the project environment, follow these steps:
 
-**1. Clone the repository:**
+> This project uses Nvidia GPU with CUDA
+
+
+**1. Initialize Langfuse:**
+
+```bash
+cd langfuse
+docker compose up
+```
+
+**2. Clone the repository:**
 
 ```bash
 git clone https://github.com/Bartket/llm-langfuse-langchain-demo.git
 cd llm-langfuse-langchain-demo
 ```
-**2. Install dependencies using Poetry:**
+**3. Install dependencies using Poetry:**
 
 ```bash
 poetry install
@@ -24,7 +34,7 @@ poetry install
 
 ## Usage
 
-**3. Run the demo application:**
+**4. Run the demo application:**
 
 ```bash
 poetry shell
