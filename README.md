@@ -12,20 +12,20 @@ To set up the project environment, follow these steps:
 
 > This project uses Nvidia GPU with CUDA
 
+**1. Clone the repository:**
 
-**1. Initialize Langfuse:**
+```bash
+git clone https://github.com/Bartket/llm-langfuse-langchain-demo.git
+cd llm-langfuse-langchain-demo
+```
+
+**2. Initialize Langfuse:**
 
 ```bash
 cd langfuse
 docker compose up
 ```
 
-**2. Clone the repository:**
-
-```bash
-git clone https://github.com/Bartket/llm-langfuse-langchain-demo.git
-cd llm-langfuse-langchain-demo
-```
 **3. Install dependencies using Poetry:**
 
 ```bash
